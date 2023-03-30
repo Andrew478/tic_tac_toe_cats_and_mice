@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    background-color: #0077FF;
+}
+.header__logo {
+    height: 70px;
+}
+header p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 170px;
+
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header a {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #213053;
+    margin: 0;
+}
+
+
+
+
+.rules {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    
+    padding-bottom: 100px;
+    background-color:#FFFFFF;
+}
+
+.rules__info {
+    max-width: 800px;
+    padding: 0px 20px 0px 20px;
+}
+
+.techInfo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color:#FFFFFF;
+}
+.techInfo__info {
+    max-width: 1600px;
+}
+.techInfo h1 {
+    font-size:24px;
+}
+/* это должно быть в tictactoe.css
+.gameContainer {
+    width: 60vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
